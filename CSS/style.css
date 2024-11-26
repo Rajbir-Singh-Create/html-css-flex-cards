@@ -1,14 +1,16 @@
+/* CSS reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* TODO: sistemare il titolo */
+/* Page structure */
 h1{
     color: rgb(229 50 112);
-    font-family: "Modak", system-ui;
-    font-weight: 400;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
     font-style: normal;
     text-align: center;
     padding-top: 30px;
@@ -22,12 +24,13 @@ main {
     margin: 50px 0px;
 }
 
-/* TODO: add font styles */
+/* Cards design */
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
+    font-family: "Parkinsans", sans-serif;
 }
 
 .card-item {
@@ -51,7 +54,6 @@ img {
     justify-content: space-around;
 }
 
-/* FIXME: rimuovere sottolinea */
 .mail-style {
     color: rgb(106 200 235);
 }
