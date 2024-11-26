@@ -19,18 +19,37 @@ main {
 }
 
 .description {
-    margin: 50px;
+    margin: 50px 0px;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    justify-content: space-between;
 }
 
 .card-item {
+    display: flex;
     background-color: rgb(15 14 23);
     color: white;
-    margin: 10px 20px;
-    flex-basis: 400px;
+    margin-bottom: 50px;
+    flex-basis: 450px;
+    align-items: stretch;
+}
+
+img {
+    width: 120px;
+}
+
+.card-info {
+    display: flex;
+    padding: 10px;
+    flex-basis: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mail-style {
+    color: rgb(106 200 235);
 }
