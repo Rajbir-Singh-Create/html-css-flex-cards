@@ -4,3 +4,33 @@
     box-sizing: border-box;
 }
 
+/* TODO: sistemare il titolo */
+h1{
+    color: rgb(229 50 112);
+    font-family: "Modak", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 30px;
+}
+
+main {
+    margin: 40px 180px;
+}
+
+.description {
+    margin: 50px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-item {
+    background-color: rgb(15 14 23);
+    color: white;
+    margin: 10px 20px;
+    flex-basis: 400px;
+}
