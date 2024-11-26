@@ -40,6 +40,7 @@ main {
     margin-bottom: 50px;
     flex-basis: 450px;
     align-items: stretch;
+    flex-shrink: 0;
 }
 
 img {
